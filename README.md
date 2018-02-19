@@ -1,1 +1,1 @@
-# [La page d'inscription](https://gentle-ocean-13586.herokuapp.com/users/sign_in)
+# [La page d'inscription](https://enigmatic-garden-17710.herokuapp.com/users/sign_up)
