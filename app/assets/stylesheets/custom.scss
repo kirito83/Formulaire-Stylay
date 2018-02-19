@@ -1,0 +1,218 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+  height:100%;
+  padding-bot: 30px;
+ background-image:
+ url(https://gigaom.com/wp-content/uploads/sites/1/2011/09/82891943_c8e9f382f5_z1-640x346.jpg);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ box-shadow: inset 0 0 0 1000px rgba(94,94,94,.85);
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto;
+}
+
+#error_explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
+  }
+}
+
+
+/* forms */
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
+th, td{
+  text-align: center;
+}
+
+table {
+  border: 1px solid #666699;
+}
+
+a.link-to-text-color { 
+  color: #000099;
+ }
+
+a:hover.link-to-text-color:hover {
+  background-color: #6699ff;
+  color: #ffff00;
+ }
+
+a:active.link-to-text-color:active {
+  background-color: #6699ff;
+  color: #ffff00;
+}
+
+#div-1a {
+ padding-left:25px;
+ padding-top:100px;
+ padding-bottom:100px;
+ padding-right:75px;
+ float:left;
+ width:43%;
+ height:415px;
+ color: white;
+ border-radius: 6px 0 0 6px;
+ background-image:
+ url(https://gigaom.com/wp-content/uploads/sites/1/2011/09/82891943_c8e9f382f5_z1-640x346.jpg);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ box-shadow: inset 0 0 0 1000px rgba(68,147,232,.97);
+
+}
+#div-1b {
+ padding-top:100px;
+ padding-left:25px;
+ padding-right:25px;
+ display:inline-block;
+ height:332px;
+ width:290px;
+ background-color: #ffffff;
+ border-radius: 0 6px 0 0;
+}
+#div-1c {
+ display:table-cell;
+ vertical-align:bottom;
+ width:290px;
+ height:83px;
+ background-color: #A9ADBB;
+ border-radius: 0 0 6px 0;
+ text-align:center;
+ padding-bottom:12%;
+}
+.div-1 {
+  align:center;
+  padding-left:20%;
+  padding-top:10%;
+  margin-bottom:900px;
+}
+
+#fatfont {
+  font-size:4em;
+}
+
+#title {
+  line-height:25px;
+}
+
+.text-size {
+  font-size:11px;
+  font-family: Quicksand;
+  font-weight:100;
+  display:inline-block;
+}
+.text-size2 {
+  font-size:12px;
+  font-family: Quicksand;
+  font-weight:100;
+  display:inline-block;
+}
+
+#subtitle {
+   font-family: Quicksand;
+  font-size:13px;
+}
+
+.left-border-none {
+    display:inline-block;
+    background-color: transparent;
+    border-left:none !important;
+    border-radius:2px;
+    border: 1px solid #CED4DA;
+    height: 50px;
+
+ }
+
+ .btn-primary.btn-perso {
+    font-family: Quicksand;
+    font-style: lighter;
+    font-size: 11px;
+    background-color: #4B92DF;
+}
+
+.middle-link {
+  color: white;
+      font-family: Quicksand;
+      font-size:12px;
+}
+
+.div-2 {
+  align:center;
+  padding-top:10%;
+  margin-bottom:900px;
+}
+
+.email-field {
+  border-radius: 2px 2px 0 0;
+  border: 1px solid #D5D6D7;
+  padding-left: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background: asset-data-url('email.png') no-repeat;
+  background-position: 6px;
+  background-size: 15px;
+}
+
+.password-field {
+  border-radius: 0 0 2px 2px;
+  border: 1px solid #D5D6D7;
+  padding-left: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background: asset-data-url('login.png') no-repeat;
+  background-position: 6px;
+  background-size: 15px;
+}
+
+.mdpforgot {
+  color: #A9ADBB;
+  font-family: Quicksand;
+  font-style:italic;
+  font-size: 11px;
+  a {
+    color: #c4c4c4;
+  }
+}

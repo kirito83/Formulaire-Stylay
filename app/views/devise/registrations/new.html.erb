@@ -1,0 +1,37 @@
+<div class="div-1">
+  <div id="div-1a">
+    <p id="title">
+    <span id="fatfont"><b>MatriX</b></span>
+      <br>
+      <span id="subtitle">L'inscription devient plus stylay</span>
+    </p>
+    <hr width="25%;" style="text-align: left; margin: 0; border-top: 1px solid #69CDAA;">
+    <br>
+    <span class="glyphicon glyphicon-pencil"></span><p class="text-size">&nbsp;&nbsp;&nbsp;Plus de design, coup de crayon</p>
+    <br>
+    <span class="glyphicon glyphicon-eye-open"></span><p class="text-size">&nbsp;&nbsp;&nbsp;Plus agréable à regarder !</p>
+    <br>
+    <span class="glyphicon glyphicon-fire"></span><p class="text-size">&nbsp;&nbsp;&nbsp;Mettez le feu, sur ce site complètement inutile</p>
+  </div>
+  <div id="div-1b">
+    <p class="text-size2">Rejoignez nous</p>
+      <%= form_for(@user, url: user_registration_path) do |f| %>
+      <%= devise_error_messages! %>
+    <div>
+      <%= f.email_field :email, class: 'email-field', placeholder: "Adresse email" %>
+  
+      <%= f.password_field :password, class: 'password-field', placeholder: "Mot de passe" %>
+
+      <%= f.password_field :password_confirmation, class: 'password-field', placeholder: "Confirmation" %>
+    </div>
+    <br>
+    <%= f.submit "Connexion", class: "btn btn-primary btn-perso", style: "padding:12px;" %>
+      <% end %>
+    <br>
+  </div>
+  <br>
+  <div id="div-1c">
+  <%= link_to "Déjà inscrit ?", new_user_session_path, class: 'middle-link' %>
+  <br>
+  </div>
+</div>
